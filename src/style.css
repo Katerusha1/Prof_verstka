@@ -54,26 +54,46 @@ details[open] > summary::after {
 }
 .header_menu {
   list-style: none;
-  min-height: 746px;
+  height: 764px;
   width: 232px;
   padding: 16px 16px 33px 33px;
   position: absolute;
   top: 79px;
   background-color: #ffffff;
 }
+.header__menu-title {
+  margin: 21px 0 24px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 17px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
 
 .header_menu-title {
-  font-weight: 700;
-  padding-bottom: 20px;
+  margin: 21px 0 24px 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .header__menu-section {
-  text-decoration: none;
-  font-weight: 400;
+  display: block;
+  padding: 8px 0 0 0;
+  text-transform: uppercase;
   color: #f16d7f;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
 }
 .header__menu-link {
+  display: block;
+  padding: 0 0 0 21px;
+  color: #6f6e6e;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 .login {
@@ -263,7 +283,6 @@ details[open] > summary::after {
 }
 .fetured_item:hover .link_box {
   display: flex;
-  
 }
 .cart_link:hover {
   box-shadow: 0 0 10px #fff;
